@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(223, 222, 222);;
+}
+
+.card{
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    /* height: 500px; */
+    background-image: linear-gradient(-45deg, rgb(81 71 166), rgb(161 236 234));
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 35px;
+    padding: 20px 0px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 15%;
+    margin: auto;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 80%;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: #fffaee;
+}
+.search button{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0;
+    background-color: #fffaee;
+}
+.search button img{
+    height: 15px;
+    width: 15px;
+}
+
+.error{
+    display: none;
+    background-color: #ffd8d8;
+    width: 70%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 13px;
+}
+.error p{
+    font-size: 9pt;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    color: #b53737;
+}
+
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    justify-content: space-around;
+    padding: 64px 0px;
+}
+
+.temp img{
+    height: 80px;
+    width: 80px;
+}
+
+.temp h3{
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+}
+
+.temp .city{
+    font-size: 15px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px
+}
+
+.col{
+    display: flex;
+}
+
+.col img{
+    height: 30px;
+    width: 30px;
+}
+
+.col p{
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.windData, .humiData{
+    color: rgb(223, 222, 222);;
+}
+
+
+.weather{
+    display: none;
+}
