@@ -1,7 +1,7 @@
 
 const weathericon = document.querySelector(".Weather-icon");
 
-const apiKey = "4e20d2e3e93ce7c7e66aa3789eb6f231";
+const apiKey = ""; // apiKey
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 async function checkWeather(city) {
